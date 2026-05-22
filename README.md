@@ -1,31 +1,34 @@
 ## How to Run Locally
 
-**1. Clone the repository**
+### Step 1: Open Terminal
+On Mac:
+Press `Command + Space`, type `Terminal`, then press `Enter`.
 
+
+### Step 2: Clone the repository
+Copy and paste the following command into Terminal:
 git clone https://github.com/syshanshan/becker-healthcare-case-study.git
 
-**2. Go into the project folder**
 
+### Step 3: Go into the project folder
+Copy and paste the following command into Terminal:
 cd becker-healthcare-case-study
 
-**3. Install backend dependencies**
-
+### Step 4: Install backend dependencies
+Copy and paste the following command into Terminal:
 npm install
 
-**4. Start backend server**
-
+### Step 5: Start the backend server
+Copy and paste the following command into Terminal:
 npm run dev
 
-**5. Open a second terminal and start frontend**
-
-cd client
-npm install
+### Step 6: Open a second Terminal window
+Copy and paste the following command into Terminal:
 npm run dev
 
-**6. Open the local site**
-
-http://localhost:5173
-
+### Step 7: Open the Backend URL in Your Browser
+Keep this Terminal window open.Open the following URL in your browser:
+http://localhost:3000
 
 ## Design Decisions
 
