@@ -23,12 +23,26 @@ Copy and paste the following command into Terminal:
 npm run dev
 
 ### Step 6: Open a second Terminal window
+On Mac:
+Press `Command + Space`, type `Terminal`, then press `Enter`.
+
+### Step 7: Go into the frontend folder
+
+Copy and paste the following command into Terminal:
+cd becker-healthcare-case-study/client
+
+### Step 8: Install frontend dependencies
+Copy and paste the following command into Terminal:
+npm install
+
+### Step 9: Start the frontend
 Copy and paste the following command into Terminal:
 npm run dev
 
-### Step 7: Open the Backend URL in Your Browser
-Keep this Terminal window open.Open the following URL in your browser:
-http://localhost:3000
+### Step 10: Open the local site
+Open the following URL in your browser:
+http://localhost:5173
+
 
 ## Design Decisions
 
