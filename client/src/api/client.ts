@@ -13,29 +13,9 @@ export class ApiError extends Error {
   }
 }
 
-async function readJsonBody<T>(
-  res: Response
-): Promise<ApiResponse<T> | ApiErrorBody> {
-  const text = await res.text();
-  if (!text.trim()) {
-    throw new ApiError(
-      res.ok
-        ? "Server returned an empty response"
-        : `Request failed (${res.status})`,
-      res.status
-    );
-  }
-
-  try {
-    return JSON.parse(text) as ApiResponse<T> | ApiErrorBody;
-  } catch {
-    throw new ApiError("Invalid JSON response from server", res.status);
-  }
-}
-
 export async function getJson<T>(path: string): Promise<T> {
   const res = await fetch(`${API_BASE}${path}`);
-  const body = await readJsonBody<T>(res);
+  const body = (await res.json()) as ApiResponse<T> | ApiErrorBody;
 
   if (!res.ok) {
     const message =
@@ -54,7 +34,7 @@ export async function postJson<T>(path: string, payload: unknown): Promise<T> {
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(payload),
   });
-  const body = await readJsonBody<T>(res);
+  const body = (await res.json()) as ApiResponse<T> | ApiErrorBody;
 
   if (!res.ok) {
     const message =
