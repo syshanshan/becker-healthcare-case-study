@@ -1,3 +1,55 @@
+## How to Run Locally
+
+**1. Clone the repository**
+
+git clone https://github.com/syshanshan/becker-healthcare-case-study.git
+
+**2. Go into the project folder**
+
+cd becker-healthcare-case-study
+
+**3. Install backend dependencies**
+
+npm install
+
+**4. Start backend server**
+
+npm run dev
+
+**5. Open a second terminal and start frontend**
+
+cd client
+npm install
+npm run dev
+
+**6. Open the local site**
+
+http://localhost:5173
+
+
+## Design Decisions
+
+**1. Prioritization & Workflow**
+
+Due to the limited 4–6 hour timeframe, I intentionally prioritized delivering a fully functional end-to-end experience over highly polished visual details or advanced interactions. To accelerate implementation and iteration speed, I leveraged AI-assisted workflows using ChatGPT and Cursor alongside traditional design and frontend workflows.
+
+
+**2. UX & Aesthetic Decisions**
+
+My design choices focused on clear hierarchy, content scannability, and strong CTA visibility to support busy healthcare professionals who often browse quickly before deciding to register. I used imagery, icons, structured spacing, and content grouping to reduce cognitive load and make information easier to scan and read.
+
+
+**3. Tradeoffs**
+
+Given the project constraints, I prioritized information architecture, usability, and conversion-focused interactions over highly customized visual systems or complex animations. The goal was to ensure users could quickly understand event value and complete registration with minimal friction.
+
+
+**4. Next Steps**
+
+With more time, I would further validate assumptions through user testing and analytics, refine responsive/mobile behaviors, improve accessibility details, and explore A/B testing opportunities for conversion optimization.
+
+
+
 # asset-lead-gen-interview-take-home
 
 "Take Home" technical interview question
