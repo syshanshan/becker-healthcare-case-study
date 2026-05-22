@@ -30,7 +30,7 @@ http://localhost:5173
 ## Design Decisions
 
 **1. Prioritization & Workflow:**
-Due to the limited 4–6 hour timeframe, I prioritized delivering a fully functional end-to-end experience over highly polished visual details or advanced interactions.
+Due to the limited 4–6 hour timeframe, I intentionally prioritized delivering a fully functional end-to-end experience over highly polished visual details or advanced interactions. To accelerate implementation and iteration speed, I leveraged AI-assisted workflows using ChatGPT and Cursor alongside traditional UX, frontend, and product-thinking workflows.
 
 
 **2. UX & Aesthetic Decisions:**
