@@ -29,24 +29,19 @@ http://localhost:5173
 
 ## Design Decisions
 
-**1. Prioritization & Workflow**
-
-Due to the limited 4–6 hour timeframe, I intentionally prioritized delivering a fully functional end-to-end experience over highly polished visual details or advanced interactions. To accelerate implementation and iteration speed, I leveraged AI-assisted workflows using ChatGPT and Cursor alongside traditional design and frontend workflows.
-
-
-**2. UX & Aesthetic Decisions**
-
-My design choices focused on clear hierarchy, content scannability, and strong CTA visibility to support busy healthcare professionals who often browse quickly before deciding to register. I used imagery, icons, structured spacing, and content grouping to reduce cognitive load and make information easier to scan and read.
+**1. Prioritization & Workflow:**
+Due to the limited 4–6 hour timeframe, I prioritized delivering a fully functional end-to-end experience over highly polished visual details or advanced interactions.
 
 
-**3. Tradeoffs**
+**2. UX & Aesthetic Decisions:**
+My UX decisions focused on a clear hierarchy, scannable content, and strong CTA visibility to support busy healthcare professionals who often browse quickly before registering.
 
-Given the project constraints, I prioritized information architecture, usability, and conversion-focused interactions over highly customized visual systems or complex animations. The goal was to ensure users could quickly understand event value and complete registration with minimal friction.
 
+**3. Tradeoffs:**
+I used reusable React components and live API integration rather than hardcoded static content to keep the solution scalable and closer to a production-oriented workflow. Given the project constraints, I prioritized information architecture, usability, responsiveness, and conversion-focused interactions over complex animations or deeper personalization features.
 
-**4. Next Steps**
-
-With more time, I would further validate assumptions through user testing and analytics, refine responsive/mobile behaviors, improve accessibility details, and explore A/B testing opportunities for conversion optimization.
+**4. Next Steps:**
+With more time, I would further validate assumptions through user testing and analytics, refine responsive/mobile behaviors, improve accessibility details, and explore A/B testing opportunities to optimize conversions.
 
 
 
